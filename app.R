@@ -11,7 +11,7 @@ ui = dashboardPagePlus(
   sidebar = dashboardSidebar(div(
     br(),
     actionGroupButtons(inputIds = c("haps_file_dir","sample_file_dir"),
-                       labels = list(".haps Dir",".sample Die"),
+                       labels = list(".haps Dir",".sample Dir"),
                        status = "primary"),
     fixedRow(
       column(1),
