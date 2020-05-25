@@ -17,7 +17,7 @@ ICHapBlock uses R shiny and shinydashboard to visualize haploblocks in human gen
   sudo apt-get install r-base
   ```
 
-- Install Shiny in R
+- Install Shiny and required packages in R
 
   In R, type in:
 
@@ -41,7 +41,7 @@ ICHapBlock uses R shiny and shinydashboard to visualize haploblocks in human gen
 
 
 
-### Licence
+### License
 
 MIT
 

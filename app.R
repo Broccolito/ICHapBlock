@@ -75,6 +75,7 @@ server = function(input, output, session) {
                               "Save LD heatmap as a png file... "))
         noted_SNPs = gsub(" ","",input$noted_SNPs)
         noted_SNPs = gsub(";",",",noted_SNPs)
+        noted_SNPs = unlist(strsplit(noted_SNPs,","))
         plot_ldheatmap(adjacency = input$adjacency,
                        SNP = input$SNP,
                        noted_SNPs = noted_SNPs,
