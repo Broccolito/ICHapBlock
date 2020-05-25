@@ -23,6 +23,13 @@ ICHapBlock uses R shiny and shinydashboard to visualize haploblocks in human gen
 
   ```R
   install.packages("shiny")
+  install.packages("LDheatmap")
+  install.packages("dplyr")
+  install.packages("genetics")
+  install.packages("shiny")
+  install.packages("shinydashboard")
+  install.packages("shinydashboardPlus")
+  install.packages("shinyWidgets")
   library("shiny")
   ```
 
