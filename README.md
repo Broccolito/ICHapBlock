@@ -38,6 +38,8 @@ ICHapBlock uses R shiny and shinydashboard to visualize haploblocks in human gen
   ```R
   runGitHub(repo = "ICHapBlock", username = "Broccolito")
   ```
+  
+- To generate input files of the same format, read tutorial: https://github.com/Broccolito/ICHapBlock/blob/master/www/Tutorial.md
 
 
 
